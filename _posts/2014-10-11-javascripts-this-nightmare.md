@@ -2,7 +2,161 @@
 layout: post
 title: "Javascript's this nightmare"
 description: ""
-category: 
-tags: []
+category: javascript
+tags: [javascript]
 ---
 {% include JB/setup %}
+
+Hi there,
+
+This is our first formal post. So, i decided to pick up a subject that is very confusing even for experienced developers, specially for those who are familiar with object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. So, let's dive into how the <i>this</i> reference works in javascript.
+
+### Differents Types of Invocation
+
+The mainly trick to understand how the this reference works in javascript is understand the four ways that it can be invoked. There are 4 ways as follow:
+
+- As a simple function invocation.
+- As a method invocation.
+- As an object creation.
+- Using the .apply and .call functions.
+
+Let's see each one and discuss the differences.
+
+### As a Simple Function Invocation
+The simplest way to invoke a function, in a directly function call in javascript the this reference is bounded to the global object at runtime. Let's go for some real life examples:
+
+- Open a Chrome browser and then open the Developer Tools (F12).
+- Go to Console item in the toolbar.
+- Create a simple function called doSomething as follow.
+
+{% highlight ruby %}
+		function doSomething(){
+ console.log( this ); 
+}
+{% endhighlight %}
+
+- Call the doSomething function.
+{% highlight ruby %}
+		doSomething();
+{% endhighlight %}
+ 
+- Note that the this points to the window object.
+
+
+At this point you should have the same as image above:
+
+
+![My helpful screenshot](/assets/image_post_2014_10_11.png)
+
+
+### As a Method Invocation
+For those with a object oriented background the method invocation is the mostly natural way to be understood. When a function is a property of an object it can be invoked as a method for the instance of that object and in this case the <i>this</i> reference clearly will be bounded to the instance of that object. Here's an example:
+
+- Open a Chrome browser and then open the Developer Tools (F12).
+- Go to Console item in the toolbar.
+- Create a javascript object called simpleObject and add a method simpleMethod as follow.
+
+{% highlight ruby %}
+var simpleObject = 
+{ 
+ counter: 0, 
+ addCounter: function(value){ 
+  this.counter += value;
+ } 
+};
+{% endhighlight %}
+
+- Then, call our method addCounter on the instance of simpleObject.
+ 
+{% highlight ruby %}
+		simpleObject.addCounter(1);
+{% endhighlight %} 
+
+- Print the value of our variable counter by doing
+
+{% highlight ruby %}
+		simpleObject.counter;
+{% endhighlight %} 
+
+
+So, you'll have the following values in your console:
+
+![My helpful screenshot](/assets/image2_post_2014_10_11.png)
+
+What happened in the example above? We created an object called simpleObject with two attributes: counter and addCounter. An [anonymous function](http://en.wikipedia.org/wiki/Anonymous_function#JavaScript) that is responsible for add an value to the counter attribute is associated with the addCounter attribute using the <i>this</i> to point to the instance of the object, then we call the method addCounter with "1" as parameter and next check the value of counter attribute. So, in a method invocation inside an javascript object the this reference points to the instance of the object.
+
+### As an Object Creation
+AKA referenced as Constructor Invocation, this method considers that any named function can be used as a constructor. There's no difference in the function declaration, the difference is in how the function is invoked once it uses the <i>new</i> keyword. If a function is invoked with the <i>new</i> prefix a new object is created and <i>this</i> is assigned to that object. Let's see how it works:
+
+- Open a Chrome browser and then open the Developer Tools (F12).
+- Go to Console item in the toolbar.
+- Create a javascript function called Creation (By convention, once it's a constructor we'll keep it with a capitalized name). In this function, create an attribute called firstAttribute and bound it to a function associated with <i>this</i>. 
+
+{% highlight ruby %}
+function Creation()
+{
+ this.firstAttribute = function () { return this; };
+}
+{% endhighlight %} 
+
+- Now, create an object using the constructor.
+
+{% highlight ruby %}
+	var objectOne = new Creation();
+{% endhighlight %} 
+
+- Check the value of firstAttribute inside objectOne.
+
+{% highlight ruby %}
+	objectOne.firstAttribute();
+{% endhighlight %} 
+
+So, the value of <i>this</i> is an empty object created when the function Creation was called with the prefix <i>new</i> as in the following image:
+
+![My helpful screenshot](/assets/image3_post_2014_10_11.png)
+
+### Using the .apply and .call Methods
+And last, the .apply and .call methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as [first class citizens](http://en.wikipedia.org/wiki/First-class_function) they can have properties and methods, just like an object and .apply and .call are two methods available for all functions in javascript. First class citizens is one of the mostly important definitions of javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, .apply and .call are opened for you choose which will be your <i>this</i> reference, let's practice:
+
+- Open a Chrome browser and then open the Developer Tools (F12).
+- Go to Console item in the toolbar.
+- Create a function sumArray that sum the values of an array.
+
+{% highlight ruby %}
+function sumArray(){
+ var sum = 0;
+ for(var n = 0; n < arguments.length; n++){
+  sum += arguments[n];
+ }
+ this.sum = sum;
+}
+{% endhighlight %}
+ 
+- Create two variables and name then as object1 and object2.
+- Call the sumArray function using the apply method. As parameter pass the object1 to be the reference of this and an array with the values will be used to sum.
+
+{% highlight ruby %}
+	sumArray.apply(object1, [1,2,3]);
+{% endhighlight %}
+
+- Call the sumArray function using the call method. As parameter pass the object2 to be the reference of this and the values separated with , to be used to sum.
+
+{% highlight ruby %}
+	sumArray.call(object2, 3, 4, 5);
+{% endhighlight %}
+
+- Note that the first parameter will be our <i>this<i> in both cases, the difference between the two methods is that .apply expect an array and .call values separated by a single comma.
+- Inside sumArray function, we setted this.sum value, so let's check those values. Type object1.sum and object2.sum to see if they were setted right.
+
+{% highlight ruby %}
+	object1.sum;
+	object2.sum;
+{% endhighlight %}
+
+![My helpful screenshot](/assets/image4_post_2014_10_11.png)
+
+### Strict Mode
+We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the [window object](http://www.w3schools.com/js/js_window.asp), if you run inside a [NodeJS](http://nodejs.org) environment it will be the NodeJS global object. But both environments has [Strict Mode](http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/). Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
+
+### For Further Reading
+To go deeply in this subject, i suggest the following resources	
