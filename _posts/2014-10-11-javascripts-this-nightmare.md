@@ -3,7 +3,7 @@ layout: post
 title: "Javascript's this nightmare"
 description: ""
 category: javascript
-tags: [javascript]
+tags: 
 ---
 {% include JB/setup %}
 
@@ -13,7 +13,7 @@ This is our first formal post. So, i decided to pick up a subject that is very c
 
 ### Differents Types of Invocation
 
-The mainly trick to understand how the this reference works in javascript is understand the four ways that it can be invoked. There are 4 ways as follow:
+The mainly trick to understand how the <i>this</i> reference works in javascript is understand the four ways that it can be invoked. They are:
 
 - As a simple function invocation.
 - As a method invocation.
@@ -23,7 +23,7 @@ The mainly trick to understand how the this reference works in javascript is und
 Let's see each one and discuss the differences.
 
 ### As a Simple Function Invocation
-The simplest way to invoke a function, in a directly function call in javascript the this reference is bounded to the global object at runtime. Let's go for some real life examples:
+The simplest way to invoke a function, in a direct function call in javascript the this reference is bound to the global object at runtime. Let's go for some real life examples:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -43,7 +43,7 @@ The simplest way to invoke a function, in a directly function call in javascript
 - Note that the this points to the window object.
 
 
-At this point you should have the same as image above:
+At this point you should have the same as image below:
 
 
 ![My helpful screenshot](/assets/image_post_2014_10_11.png)
@@ -159,4 +159,15 @@ function sumArray(){
 We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the [window object](http://www.w3schools.com/js/js_window.asp), if you run inside a [NodeJS](http://nodejs.org) environment it will be the NodeJS global object. But both environments has [Strict Mode](http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/). Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
 
 ### For Further Reading
-To go deeply in this subject, i suggest the following resources	
+To go deeply in this subject, i suggest the following books, both focused in javascript. The first is a book of [You Don't Know JS Series](https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series) which i'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the great books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by Douglas Crockford, creator of JSON.
+
+
+ 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecblo-20&marketplace=amazon&region=US&placement=1491904151&asins=1491904151&linkId=463ZW6OOIPXPIIB5&show_border=true&link_opens_in_new_window=true">
+</iframe>
+
+ 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecblo-20&marketplace=amazon&region=US&placement=0596517742&asins=0596517742&linkId=ZTOWF5DCU6HUXDRX&show_border=true&link_opens_in_new_window=true">
+</iframe>
+
+
