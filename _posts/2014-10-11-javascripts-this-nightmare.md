@@ -2,8 +2,8 @@
 layout: post
 title: "Javascript's this nightmare"
 description: ""
-category: javascript
-tags: 
+category: lessons
+tags: [javascript]
 ---
 {% include JB/setup %}
 
