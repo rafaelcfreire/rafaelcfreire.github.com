@@ -5,6 +5,16 @@ tagline:
 ---
 {% include JB/setup %}
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56746688-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 Welcome to Rafael Freire Tech Blog. Here you will find some of my thoughts about software development. I'll try to update it always as possible with what i'm currently studying, reviews about books i read or i'm reading and some cool stuff i find over the internet. Feel free to share your opinion in our posts. ;)
 

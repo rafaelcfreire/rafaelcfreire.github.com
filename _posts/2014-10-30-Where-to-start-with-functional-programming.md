@@ -7,6 +7,18 @@ tags: [languages, scala, javascript, java 8, functional]
 ---
 {% include JB/setup %}
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56746688-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 Hi all,
 
 Nowadays it is very common to see people discussing the use of [functional programming](https://www.haskell.org/haskellwiki/Functional_programming), mostly of modern languages adopt some of his principles and seems that it is a new shift that will change the way you program, but isn't one or another. Functional programming has been around for a long time and there are some misconceptions, confusions and prejudice about the concept of functional programming that leads to misuse of a very useful paradigm but that isn't a silver bullet. People with background in [imperative programming](http://en.wikipedia.org/wiki/Imperative_programming) where the solution for an algorithm should be described step by step in a sequence of statements tends to feel love at first sight with functional programming due to the fact of writting much less code to achieve the same results and ease of reading.
