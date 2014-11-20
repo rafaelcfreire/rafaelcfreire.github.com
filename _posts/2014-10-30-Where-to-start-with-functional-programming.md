@@ -66,6 +66,8 @@ Those 2 things are really in the core of FP. Abscence of effects is directly rel
 - [Currying](http://en.wikipedia.org/wiki/Currying)
 - [Tail Recursion](http://en.wikipedia.org/wiki/Tail_call)
 - [Pattern Matching](http://c2.com/cgi/wiki?PatternMatching)
+
+
 <!--
 So, let's see a brief explanation and a small example of each one in Scala of the above
 
