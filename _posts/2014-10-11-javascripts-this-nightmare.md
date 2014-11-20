@@ -21,11 +21,11 @@ tags: [javascript]
   
 Hi there,
 
-This is our first formal post. So, i decided to pick up a subject that is very confusing even for experienced developers, specially for those who are familiar with object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. So, let's dive into how the <i>this</i> reference works in javascript.
+This is our first formal post. So, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who are familiar with object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. So, let's dive into how the <i>this</i> reference works in javascript.
 
 ### Differents Types of Invocation
 
-The mainly trick to understand how the <i>this</i> reference works in javascript is understand the four ways that it can be invoked. They are:
+The main trick to understand how the <i>this</i> reference works in javascript is understand the four ways that it can be invoked. They are:
 
 - As a simple function invocation.
 - As a method invocation.
@@ -35,7 +35,7 @@ The mainly trick to understand how the <i>this</i> reference works in javascript
 Let's see each one and discuss the differences.
 
 ### As a Simple Function Invocation
-The simplest way to invoke a function, in a direct function call in javascript the this reference is bound to the global object at runtime. Let's go for some real life examples:
+That's the simplest way to invoke a function, in a direct function call in javascript the this reference is bound to the global object at runtime. Let's go for some real life examples:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -158,7 +158,7 @@ function sumArray(){
 {% endhighlight %}
 
 - Note that the first parameter will be our <i>this<i> in both cases, the difference between the two methods is that .apply expect an array and .call values separated by a single comma.
-- Inside sumArray function, we setted this.sum value, so let's check those values. Type object1.sum and object2.sum to see if they were setted right.
+- Inside sumArray function, we setted <i>this.sum</i> value, so let's check those values. Type <i>object1.sum</i> and <i>object2.sum</i> to see if they were setted right.
 
 {% highlight ruby %}
 	object1.sum;
@@ -171,7 +171,7 @@ function sumArray(){
 We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the [window object](http://www.w3schools.com/js/js_window.asp), if you run inside a [NodeJS](http://nodejs.org) environment it will be the NodeJS global object. But both environments has [Strict Mode](http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/). Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
 
 ### For Further Reading
-To go deeply in this subject, i suggest the following books, both focused in javascript. The first is a book of [You Don't Know JS Series](https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series) which i'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by [Douglas Crockford](http://javascript.crockford.com), creator of JSON.
+To go deeply in this subject I suggest the following books, both focused in javascript. The first is a book of [You Don't Know JS Series](https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series) which I'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by [Douglas Crockford](http://javascript.crockford.com), creator of JSON.
 
 
  
