@@ -58,7 +58,7 @@ valores.forEach((BigDecimal doubleValue) -> System.out.println(doubleValue));
 
 Noticed how is more readable? Makes more sense and clearly you can identify the meaning of that execution in terms of purpose but, thats just one of the characteristics of FP used to show the difference from an imperative to a functional paradigm in coding. The definition of FP isn't so clear but there are some features that can't be forgot when talking about the benefits of FP. According to [Gilad Bracha](http://bracha.org) in one [brilliant presentation about what is and what isn't FP]((http://www.infoq.com/presentations/functional-pros-cons)), the definitions of FP vary, but tend to involve [High order functions]() and [Abscence of effects]().
 
-Those 2 things are really in the core of FP. Abscence of effects is directly related with immutability and one of the most important things when working with functions and you know that're prepared for the shift to FP when abscence of effects is automatic in your mind when modelling your functions, i'd enumerate others points to understand if you want to really dig into FP, that are:
+Those 2 things are really in the core of FP. Abscence of effects is directly related with immutability and one of the most important things when working with functions and you know that're prepared for the shift to FP when abscence of effects is automatic in your mind when modelling your functions, I'd enumerate others points to understand if you want to really dig into FP, that are:
 
 - [First Class Functions](http://en.wikipedia.org/wiki/First-class_function)
 - [Pure Functions](http://en.wikipedia.org/wiki/Pure_function)
@@ -66,14 +66,14 @@ Those 2 things are really in the core of FP. Abscence of effects is directly rel
 - [Currying](http://en.wikipedia.org/wiki/Currying)
 - [Tail Recursion](http://en.wikipedia.org/wiki/Tail_call)
 - [Pattern Matching](http://c2.com/cgi/wiki?PatternMatching)
-
+<!--
 So, let's see a brief explanation and a small example of each one in Scala of the above
 
 ### First Class Functions
 
 First Class Functions are functions treated as objects themselves. It can be passed as a parameter to another function, return a function from a function or store a function in a variable. Functions which take other functions as parameter or return them are called <i>High Order Function</i>
 
-
+-->
 When understanding these topics, you'll start to take advantage of FP principles and have a better coding with more pleasure and less error prone. Probably you'll never want get back to old imperative way and will notice yourself thinking functional for solving problems that you used to have. When its happen you've been bitten by the functional bug ;)
 
 ### For Further Reading
