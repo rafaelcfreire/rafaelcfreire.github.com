@@ -49,11 +49,11 @@ Even the syntax of [enhanced loop](https://blogs.oracle.com/CoreJavaTechTips/ent
 
 
 {% highlight ruby %}
-final List<BigDecimal> valores = Arrays.asList(
+final List<BigDecimal> values = Arrays.asList(
 			    new BigDecimal("70"), new BigDecimal("25"), new BigDecimal("55"),
 			    new BigDecimal("12"));
 
-valores.forEach((BigDecimal doubleValue) -> System.out.println(doubleValue));
+values.forEach((BigDecimal doubleValue) -> System.out.println(doubleValue));
 {% endhighlight %}
 
 Noticed how is more readable? Makes more sense and clearly you can identify the meaning of that execution in terms of purpose but, thats just one of the characteristics of FP used to show the difference from an imperative to a functional paradigm in coding. The definition of FP isn't so clear but there are some features that can't be forgot when talking about the benefits of FP. According to [Gilad Bracha](http://bracha.org) in one [brilliant presentation about what is and what isn't FP]((http://www.infoq.com/presentations/functional-pros-cons)), the definitions of FP vary, but tend to involve [High order functions]() and [Abscence of effects]().
@@ -68,14 +68,47 @@ Those 2 things are really in the core of FP. Abscence of effects is directly rel
 - [Pattern Matching](http://c2.com/cgi/wiki?PatternMatching)
 
 
-<!--
 So, let's see a brief explanation and a small example of each one in Scala of the above
 
 ### First Class Functions
 
-First Class Functions are functions treated as objects themselves. It can be passed as a parameter to another function, return a function from a function or store a function in a variable. Functions which take other functions as parameter or return them are called <i>High Order Function</i>
+First Class Functions are functions treated as objects themselves. It can be passed as a parameter to another function, return a function from a function or store a function in a variable. Functions which take other functions as parameter or return them are also known as <i>High Order Function</i>. Here is a small example, i decided to use Javascript for ours examples because it is a well known language and available in all modern browsers so you can easily open your browser and test the code.
 
--->
+{% highlight ruby %}
+var myFunction = function(a, b){ return a + b }
+myFunction(4,3);
+function sumAllValues(a, b, c) { return a + b + c };
+sumAllValues(myFunction(4,3), 5, 2)
+{% endhighlight %}
+
+In the example above we created a variable called <i>myFunction</i> and assigned an [Anonymous Function](http://en.wikipedia.org/wiki/Anonymous_function) which sum two values. After I defined a function called <i>sumAllValues</i> where return the sum of his parameters that in our case one of them is the Anonymous Function assigned to myFunction variable, this is our small example of first class functions.
+
+### Pure Functions
+
+Pure Functions is a mathematical concept that relies on the fact that a function always evaluates the same value given the same arguments. In our subject it is directly associated with mutability and side effects or the absence of them. In FP we should not mutate variable values that are passed as parameters inside our functions and a function should be designed to <u>always perform the same computation, resulting in the same output given a set of inputs</u>. Larger functions tends to be hard to maintain and error prone, in a good functional design a function does exactly one computation and return the value of it.
+
+### Immutable Variables
+
+Immutable variables is a concept in the core of Functional Programming. It is related with side effects like Pure Functions, in therms of multi-thread applications an immutable object is totally reliable once it can't have his value changed so, if you want to change a value from a immutable object you should create a new one and reference to it. Immutable variables is not just a good practice in FP, languages like Java has lot of immutable classes in his core, [String](http://docs.oracle.com/javase/6/docs/api/java/lang/String.html) is a classical example.
+
+### Currying
+
+Currying is a technique of changing the number of parameters of a function, so for example if a function has 5 parameters you can change it to one parameter. Currying is used behind the scenes in the <i>High Order Functions</i> mentioned above to simplify and reuse functions. Let's see a practical example with Javascript code:
+
+{% highlight ruby %}
+ function pow(i, j) { 
+     return i * j;
+ }
+ 
+ function square (k) {
+     return pow(k, 2);
+ }
+ 
+ alert(square(6));
+{% endhighlight %}
+
+The code above is a classical example where a function called <i>pow</i> that takes two parameters is used inside the <i>square</i> function instead of redoing his algorithm inside square function. As mentioned above, it enhances the flexibility and reuse of functions.
+
 When understanding these topics, you'll start to take advantage of FP principles and have a better coding with more pleasure and less error prone. Probably you'll never want get back to old imperative way and will notice yourself thinking functional for solving problems that you used to have. When its happen you've been bitten by the functional bug ;)
 
 ### For Further Reading
