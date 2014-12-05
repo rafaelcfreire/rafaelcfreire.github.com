@@ -35,7 +35,7 @@ The main trick to understand how the <i>this</i> reference works in javascript i
 Let's see each one and discuss the differences.
 
 ### As a Simple Function Invocation
-That's the simplest way to invoke a function, in a direct function call in javascript the this reference is bound to the global object at runtime. Let's go for some real life examples:
+That's the simplest way to invoke a function, in a direct function call in javascript the <i>this</i> reference is bound to the global object at runtime. Let's go for some real life examples:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -52,7 +52,7 @@ That's the simplest way to invoke a function, in a direct function call in javas
 		doSomething();
 {% endhighlight %}
  
-- Note that the this points to the window object.
+- Note that the <i>this</i> points to the window object.
 
 
 At this point you should have the same as image below:
@@ -66,7 +66,7 @@ For those with a object oriented background the method invocation is the mostly 
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
-- Create a javascript object called simpleObject and add a method simpleMethod as follow.
+- Create a javascript object called <i>simpleObject</i> and add a method <i>simpleMethod</i> as follow.
 
 {% highlight ruby %}
 var simpleObject = 
@@ -78,7 +78,7 @@ var simpleObject =
 };
 {% endhighlight %}
 
-- Then, call our method addCounter on the instance of simpleObject.
+- Then, call our method <i>addCounter</i> on the instance of <i>simpleObject</i>.
  
 {% highlight ruby %}
 		simpleObject.addCounter(1);
@@ -95,14 +95,14 @@ So, you'll have the following values in your console:
 
 ![My helpful screenshot](/assets/image2_post_2014_10_11.png)
 
-What happened in the example above? We created an object called simpleObject with two attributes: counter and addCounter. An [anonymous function](http://en.wikipedia.org/wiki/Anonymous_function#JavaScript) that is responsible for add an value to the counter attribute is associated with the addCounter attribute using the <i>this</i> to point to the instance of the object, then we call the method addCounter with "1" as parameter and next check the value of counter attribute. So, in a method invocation inside an javascript object the this reference points to the instance of the object.
+What happened in the example above? We created an object called <i>simpleObject</i> with two attributes: <i>counter</i> and <i>addCounter</i>. An [anonymous function](http://en.wikipedia.org/wiki/Anonymous_function#JavaScript) that is responsible for add an value to the counter attribute is associated with the addCounter attribute using the <i>this</i> to point to the instance of the object, then we call the method addCounter with "1" as parameter and next check the value of counter attribute. So, in a method invocation inside an javascript object the this reference points to the instance of the object.
 
 ### As an Object Creation
 AKA referenced as Constructor Invocation, this method considers that any named function can be used as a constructor. There's no difference in the function declaration, the difference is in how the function is invoked once it uses the <i>new</i> keyword. If a function is invoked with the <i>new</i> prefix a new object is created and <i>this</i> is assigned to that object. Let's see how it works:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
-- Create a javascript function called Creation (By convention, once it's a constructor we'll keep it with a capitalized name). In this function, create an attribute called firstAttribute and bound it to a function associated with <i>this</i>. 
+- Create a javascript function called <i>Creation</i> (By convention, once it's a constructor we'll keep it with a capitalized name). In this function, create an attribute called <i>firstAttribute</i> and bound it to a function associated with <i>this</i>. 
 
 {% highlight ruby %}
 function Creation()
@@ -123,16 +123,16 @@ function Creation()
 	objectOne.firstAttribute();
 {% endhighlight %} 
 
-So, the value of <i>this</i> is an empty object created when the function Creation was called with the prefix <i>new</i> as in the following image:
+So, the value of <i>this</i> is an empty object created when the function <i>Creation</i> was called with the prefix <i>new</i> as in the following image:
 
 ![My helpful screenshot](/assets/image3_post_2014_10_11.png)
 
 ### Using the .apply and .call Methods
-And last, the .apply and .call methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as [first class citizens](http://en.wikipedia.org/wiki/First-class_function) they can have properties and methods, just like an object and .apply and .call are two methods available for all functions in javascript. First class citizens is one of the mostly important definitions of javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, .apply and .call are opened for you choose which will be your <i>this</i> reference, let's practice:
+And last, the <i>.apply</i> and <i>.call</i> methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as [first class citizens](http://en.wikipedia.org/wiki/First-class_function) they can have properties and methods, just like an object and <i>.apply</i> and <i>.call</i> are two methods available for all functions in javascript. First class citizens is one of the mostly important definitions of javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, <i>.apply</i> and <i>.call</i> are opened for you choose which will be your <i>this</i> reference, let's practice:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
-- Create a function sumArray that sum the values of an array.
+- Create a function <i>sumArray</i> that sum the values of an array.
 
 {% highlight ruby %}
 function sumArray(){
@@ -144,21 +144,21 @@ function sumArray(){
 }
 {% endhighlight %}
  
-- Create two variables and name then as object1 and object2.
-- Call the sumArray function using the apply method. As parameter pass the object1 to be the reference of this and an array with the values will be used to sum.
+- Create two variables and name then as <i>object1</i> and <i>object2</i>.
+- Call the <i>sumArray</i> function using the <i>apply</i> method. As parameter pass the <i>object1</i> to be the reference of <i>"this"</i> and an array with the values will be used to sum.
 
 {% highlight ruby %}
 	sumArray.apply(object1, [1,2,3]);
 {% endhighlight %}
 
-- Call the sumArray function using the call method. As parameter pass the object2 to be the reference of this and the values separated with , to be used to sum.
+- Call the <i>sumArray</i> function using the <i>call</i> method. As parameter pass the <i>object2</i> to be the reference of <i>"this"</i> and the values separated with commas to be used to sum.
 
 {% highlight ruby %}
 	sumArray.call(object2, 3, 4, 5);
 {% endhighlight %}
 
-- Note that the first parameter will be our <i>this<i> in both cases, the difference between the two methods is that .apply expect an array and .call values separated by a single comma.
-- Inside sumArray function, we setted <i>this.sum</i> value, so let's check those values. Type <i>object1.sum</i> and <i>object2.sum</i> to see if they were setted right.
+- Note that the first parameter will be our <i>this<i> in both cases, the difference between the two methods is that <i>.apply</i> expect an array and <i>.call</i> values separated by a single comma.
+- Inside <i>sumArray</i> function, we setted <i>this.sum</i> value, so let's check those values. Type <i>object1.sum</i> and <i>object2.sum</i> to see if they were setted right.
 
 {% highlight ruby %}
 	object1.sum;
