@@ -9,7 +9,6 @@ tags: [javascript]
 
 
 <script>
-  $(document).ready(function(){$("a").attr({"target":"_blank"});})	
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -97,7 +96,7 @@ So, you'll have the following values in your console:
 
 ![My helpful screenshot](/assets/image2_post_2014_10_11.png)
 
-What happened in the example above? We created an object called <i>simpleObject</i> with two attributes: <i>counter</i> and <i>addCounter</i>. An [anonymous function](http://en.wikipedia.org/wiki/Anonymous_function#JavaScript) that is responsible for add an value to the counter attribute is associated with the addCounter attribute using the <i>this</i> to point to the instance of the object, then we call the method addCounter with "1" as parameter and next check the value of counter attribute. So, in a method invocation inside an javascript object the this reference points to the instance of the object.
+What happened in the example above? We created an object called <i>simpleObject</i> with two attributes: <i>counter</i> and <i>addCounter</i>. An <a href="http://en.wikipedia.org/wiki/Anonymous_function#JavaScript" target='_blank'>anonymous function</a> that is responsible for add an value to the counter attribute is associated with the addCounter attribute using the <i>this</i> to point to the instance of the object, then we call the method addCounter with "1" as parameter and next check the value of counter attribute. So, in a method invocation inside an javascript object the this reference points to the instance of the object.
 
 ### As an Object Creation
 AKA referenced as Constructor Invocation, this method considers that any named function can be used as a constructor. There's no difference in the function declaration, the difference is in how the function is invoked once it uses the <i>new</i> keyword. If a function is invoked with the <i>new</i> prefix a new object is created and <i>this</i> is assigned to that object. Let's see how it works:
@@ -130,7 +129,7 @@ So, the value of <i>this</i> is an empty object created when the function <i>Cre
 ![My helpful screenshot](/assets/image3_post_2014_10_11.png)
 
 ### Using the .apply and .call Methods
-And last, the <i>.apply</i> and <i>.call</i> methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as [first class citizens](http://en.wikipedia.org/wiki/First-class_function) they can have properties and methods, just like an object and <i>.apply</i> and <i>.call</i> are two methods available for all functions in javascript. First class citizens is one of the mostly important definitions of javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, <i>.apply</i> and <i>.call</i> are opened for you choose which will be your <i>this</i> reference, let's practice:
+And last, the <i>.apply</i> and <i>.call</i> methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as <a href="http://en.wikipedia.org/wiki/First-class_function" target='_blank'>first class citizens</a> they can have properties and methods, just like an object and <i>.apply</i> and <i>.call</i> are two methods available for all functions in javascript. First class citizens is one of the mostly important definitions of javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, <i>.apply</i> and <i>.call</i> are opened for you choose which will be your <i>this</i> reference, let's practice:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -170,10 +169,10 @@ function sumArray(){
 ![My helpful screenshot](/assets/image4_post_2014_10_11.png)
 
 ### Strict Mode
-We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the [window object](http://www.w3schools.com/js/js_window.asp), if you run inside a [NodeJS](http://nodejs.org) environment it will be the NodeJS global object. But both environments has [Strict Mode](http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/). Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
+We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the <a href="http://www.w3schools.com/js/js_window.asp" target="_blank">window object</a>, if you run inside a <a href="http://nodejs.org" target="_blank">NodeJS</a> environment it will be the NodeJS global object. But both environments has (<a href="http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/" target="_blank">Strict Mode</a>. Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
 
 ### For Further Reading
-To go deeply in this subject I suggest the following books, both focused in javascript. The first is a book of [You Don't Know JS Series](https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series) which I'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by [Douglas Crockford](http://javascript.crockford.com), creator of JSON.
+To go deeply in this subject I suggest the following books, both focused in javascript. The first is a book of <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series" target="_blank">You Don't Know JS Series</a> which I'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by <a href="http://javascript.crockford.com" target="_blank">Douglas Crockford</a>, creator of JSON.
 
 
  
@@ -183,5 +182,6 @@ To go deeply in this subject I suggest the following books, both focused in java
  
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecblo-20&marketplace=amazon&region=US&placement=0596517742&asins=0596517742&linkId=ZTOWF5DCU6HUXDRX&show_border=true&link_opens_in_new_window=true">
 </iframe>
+
 
 
