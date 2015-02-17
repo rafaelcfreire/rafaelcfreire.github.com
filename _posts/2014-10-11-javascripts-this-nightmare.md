@@ -8,18 +8,16 @@ tags: [javascript]
 {% include JB/setup %}
 
 
-<script>
 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div style="margin-bottom: 1.5em;">
+	<div>
+		<a href="https://twitter.com/share" class="twitter-share-button" style="vertical-align: bottom">Tweet</a>
+	</div>
+	<div>
+		<span id="facebook-share" class="fb-share-button" data-href="http://rafaelcfreire.github.io/lessons/2014/10/11/javascripts-this-nightmare/" data-layout="button"></span>
+	</div>
+</div>
 
-  ga('create', 'UA-56746688-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  
 Hi there,
 
 This is our first formal post. So, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who are familiar with object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. That said, let's dive into how the <i>this</i> reference works in javascript.
@@ -182,6 +180,8 @@ To go deeply in this subject I suggest the following books, both focused in java
  
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecblo-20&marketplace=amazon&region=US&placement=0596517742&asins=0596517742&linkId=ZTOWF5DCU6HUXDRX&show_border=true&link_opens_in_new_window=true">
 </iframe>
+
+<script type="text/javascript" src="/js/main.js"></script>
 
 
 
