@@ -6,6 +6,8 @@ category: tips
 tags: [HTML5, CSS3]
 ---
 {% include JB/setup %}
+
+
 <!-->
 Hello everyone, 
 
@@ -14,4 +16,5 @@ One important part of the web developer's job nowadays is assure the responsiven
 
 http://ami.responsivedesign.is
 -->
+
 <script type="text/javascript" src="/js/main.js"></script>
