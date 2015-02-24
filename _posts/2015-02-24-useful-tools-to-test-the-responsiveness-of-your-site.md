@@ -6,9 +6,9 @@ category: tips
 tags: [HTML5, CSS3]
 ---
 {% include JB/setup %}
-
-Hello everyone, 
 <!-->
+Hello everyone, 
+
 One important part of the web developer's job nowadays is assure the responsiveness of the pages that he is creating. It is impossible to start 
 
 
