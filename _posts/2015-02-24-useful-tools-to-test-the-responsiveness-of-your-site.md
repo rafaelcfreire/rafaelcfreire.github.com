@@ -17,7 +17,7 @@ I classified the tools in two sections, first those that you can use during the 
 
 ## DURING IMPLEMENTATION
 
-Major moderns browsers have their ours developer tools. Although it is a embedded feature, they are extremely mature with all that is needed to develop a page fully responsive together with <a href="">Media Queries</a>
+Major moderns browsers have their ours developer tools. Although it is a embedded feature, they are extremely mature with all that is needed to develop a page fully responsive together with <a href="http://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Media Queries</a>
 
 ## AFTER DEPLOYMENT
 
