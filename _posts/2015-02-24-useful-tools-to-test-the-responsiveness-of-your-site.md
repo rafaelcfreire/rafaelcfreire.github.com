@@ -17,10 +17,11 @@ I classified the tools in two sections, first those that you can use during the 
 
 ## DURING IMPLEMENTATION
 
-Major moderns browsers have their ours developer tools. Although it is a embedded feature, they are extremely mature with all that is needed to develop a page fully responsive together with <a href="http://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Media Queries</a>
+Major moderns browsers have their ours developer tools. Although it is a embedded feature, they are higly mature with all that is needed to develop a page fully responsive together with <a href="http://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Media Queries</a> which you can emulate different types of screen.
 
 ## AFTER DEPLOYMENT
 
+The 'After Deployment' tools are important for the overall look, to catch specific details that are hard to be tracked during development
 
 http://ami.responsivedesign.is
 
