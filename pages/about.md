@@ -8,7 +8,7 @@ group: navigation
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 Hi,
-I'm Rafael Freire, a hands on brazilian software engineer with experience in Java EE and javascript front end technologies like JQuery, Backbone.js and some others *.js things. Currently I'm working at [Universidade Federal de Minas Gerais](https://www.ufmg.br) and in my available time I usually write some cool apps that you can check in my Bitbucket and Github pages. I'm a [Manning](http://manning.com/) reviewer too so, I usually read a lot of tech books that I'll suggest here in the Blog. 
+I'm Rafael Freire, a hands on brazilian software engineer with experience in Java EE, Ruby on Rails and javascript front end technologies like HTML5, WebComponents, JQuery, Backbone.js and some others *.js things. Currently I'm working at [Universidade Federal de Minas Gerais](https://www.ufmg.br) and in my available time I usually write some cool apps that you can check in my Bitbucket and Github pages. I'm a [Manning](http://manning.com/) reviewer too so, I usually read a lot of tech books that I'll suggest here in the Blog. 
 
 - <i class="fa fa-download"></i> [Download my Resume (PDF)](/assets/resume_english.pdf)
 
