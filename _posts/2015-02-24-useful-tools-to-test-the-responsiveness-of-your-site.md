@@ -7,6 +7,15 @@ tags: [HTML5, CSS3]
 ---
 {% include JB/setup %}
 
+<div style="margin-bottom: 1.5em;">
+  <div>
+    <a href="https://twitter.com/share" class="twitter-share-button" style="vertical-align: bottom">Tweet</a>
+  </div>
+  <div>
+    <span class="fb-share-button" data-href="http://rafaelcfreire.github.io/tips/2015/02/24/useful-tools-to-test-the-responsiveness-of-your-site/" data-layout="button"></span>
+  </div>
+</div>
+
 Hello everyone, 
 
 One important part of the web developer's job nowadays is assure the responsiveness of the pages that he is creating. It is impossible to start a project which <a href="http://speckyboy.com/2013/01/17/the-evolution-of-responsive-web-design-responsivity-analysis/">responsivity analysis</a> is not a mandatory requirement, the therm <a href="http://www.uxmatters.com/mt/archives/2012/03/mobile-first-what-does-it-mean.php">Mobile First</a> is a topic that every software developer should be comfortable  a exhausted discussed <a href="http://www.webinsation.com/why-should-i-design-for-mobile-first/">here</a> and <a href="http://www.wearejh.com/design/benefits-of-a-mobile-first-approach/">here</a> by instance.
