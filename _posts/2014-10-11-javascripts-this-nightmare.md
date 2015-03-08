@@ -20,7 +20,7 @@ tags: [javascript]
 
 Hi there,
 
-This is our first formal post. So, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who are familiar with object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. That said, let's dive into how the <i>this</i> reference works in javascript.
+This is our first formal post. So, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who came from an object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. That said, let's dive into how the <i>this</i> reference works in javascript.
 
 ### Differents Types of Invocation
 
