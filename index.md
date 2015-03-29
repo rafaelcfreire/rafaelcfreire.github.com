@@ -16,12 +16,12 @@ tagline:
 
 </script>
 
-Welcome to Rafael Freire Tech Blog. Here you will find some of my thoughts about software development. I'll try to update it always as possible with what i'm currently studying, reviews about books I've read or I'm reading and some cool stuff I find over the internet. Feel free to share your opinion in our posts. ;)
+Welcome to Rafael Freire's Tech Blog. Here you will find some of my thoughts about software development. I'll try to update it always as possible with what I'm currently studying, reviews about books I've read or thar I'm reading and some cool stuff I find over the internet. Feel free to share your opinion in our posts. ;)
 
 
 
 
-<p>
+<p id="quotes">
 	<script type="text/javascript" src="http://www.brainyquote.com/link/quotebr.js"></script>
 	<small><i><a href="http://www.brainyquote.com/quotes_of_the_day.html" target="_blank">more Quotes</a></i></small>
 </p>
