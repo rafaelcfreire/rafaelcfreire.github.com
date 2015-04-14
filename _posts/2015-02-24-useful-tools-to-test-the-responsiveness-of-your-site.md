@@ -21,13 +21,19 @@ Major moderns browsers have their ours developer tools. Although it is a embedde
 
 ### Google Chrome
 
-It is very easy to emulate a device in Google Chrome, first all open the 'Developer Tools' in View -> Developer -> Developer Tools then you will notice a cell phone image in the upper left side of the tool bar as you can see in the image above
+It is very easy to emulate a device in Google Chrome, first all open the 'Developer Tools' in View -> Developer -> Developer Tools then you will notice a cell phone image in the upper left side of the tool bar as you can see in the image behind.
+
+### Mozilla Firefox
+
+### Safari
+
 
 ### After Deployment
 
-The 'After Deployment' tools are important for the overall look, to catch specific details that are hard to be tracked during development
+The 'After Deployment' tools are important for the overall look, to catch specific details that are hard to be tracked during development when you are most occupied trying to getting your page into details. There are some online services that simulate the access to your site from different devices and in all of them you need to have your pages published in a public URL, unfortunatelly you can't point to your localhost. I will the two services that I like most to work with, the first is <a href="http://responsive.is/typecast.com" target="_blank">Responsive.is</a>, a lean and direct tool to test the responsiveness of your pages. All you have to do is 
 
-http://ami.responsivedesign.is
+<a href="http://ami.responsivedesign.is">Responsive Design</a>
+
 
 
 <script type="text/javascript" src="/js/main.js"></script>
