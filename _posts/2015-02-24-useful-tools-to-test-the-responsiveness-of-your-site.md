@@ -7,6 +7,15 @@ tags: [HTML5, CSS3]
 ---
 {% include JB/setup %}
 
+<div style="margin-bottom: 1.5em;">
+  <div>
+    <a href="https://twitter.com/share" class="twitter-share-button" style="vertical-align: bottom">Tweet</a>
+  </div>
+  <div>
+    <span class="fb-share-button" data-href="http://rafaelcfreire.github.io/tips/2015/02/24/useful-tools-to-test-the-responsiveness-of-your-site/" data-layout="button"></span>
+  </div>
+</div>
+
 Hello everyone, 
 
 One important part of the web developer's job nowadays is assure the responsiveness of the pages that he is creating. It is impossible to start a project which <a href="http://speckyboy.com/2013/01/17/the-evolution-of-responsive-web-design-responsivity-analysis/">responsivity analysis</a> is not a mandatory requirement, the therm <a href="http://www.uxmatters.com/mt/archives/2012/03/mobile-first-what-does-it-mean.php">Mobile First</a> is a topic that every software developer should be comfortable  a exhausted discussed <a href="http://www.webinsation.com/why-should-i-design-for-mobile-first/">here</a> and <a href="http://www.wearejh.com/design/benefits-of-a-mobile-first-approach/">here</a> by instance.
@@ -21,18 +30,30 @@ Major moderns browsers have their ours developer tools. Although it is a embedde
 
 ### Google Chrome
 
-It is very easy to emulate a device in Google Chrome, first all open the 'Developer Tools' in View -> Developer -> Developer Tools then you will notice a cell phone image in the upper left side of the tool bar as you can see in the image behind.
+It is very easy to emulate a device in Google Chrome, first all open the 'Developer Tools' in View -> Developer -> Developer Tools then you will notice a cell phone image in the upper left side of the tool bar as you can see in the image below
+
+![My helpful screenshot](/assets/added.png)
+
+After clicking on the device icon, the page turns to a mobile mode where you can select the device model to emulate specific scenarios and both rotation to portrair or landscape. One nice feature in Chrome is the simulation of network velocity, if data transfer is a potential threat and the page content large images or resources, the user can select a network connection in the upper tab.
 
 ### Mozilla Firefox
 
-### Safari
+Mozilla Firefox uses a different approach, instead od choosing a target device you can enter the width and length sizes. To enable, just select Responsive Design View in 'Developer Tools'(⌘⌥M in Mac). The useful controls to rotate and simulate touch events are above the rendered page as you can se below.
 
+
+![My helpful screenshot](/assets/firefox_responsive_view.png)
 
 ### After Deployment
 
-The 'After Deployment' tools are important for the overall look, to catch specific details that are hard to be tracked during development when you are most occupied trying to getting your page into details. There are some online services that simulate the access to your site from different devices and in all of them you need to have your pages published in a public URL, unfortunatelly you can't point to your localhost. I will the two services that I like most to work with, the first is <a href="http://responsive.is/typecast.com" target="_blank">Responsive.is</a>, a lean and direct tool to test the responsiveness of your pages. All you have to do is 
+The 'After Deployment' tools are important for the overall look, to catch specific details that are hard to be tracked during development stage. Those pages are useful to test the navigation in different environments. They are called 'after deployment' because you cannot just point to your localhost. I like two sites that provides excellent simulation services, the first is <a href="http://ami.responsivedesign.is">Am I Responsive</a>, an easy tool that permits you to see the rendered page in all devices at the same time. Unfortunatelly, it just renders in Apple viewports.
 
-<a href="http://ami.responsivedesign.is">Responsive Design</a>
+![My helpful screenshot](/assets/amiresponsive.png)
+
+The other page I usually test my features is <a href="http://responsive.is/typecast.com">Responsive Is</a>, which you can emulate different pre-defined viewports.
+
+![My helpful screenshot](/assets/responsiveis.png)
+
+If you use another resource to test the responsiveness of your pages, write down on our comments.
 
 
 
