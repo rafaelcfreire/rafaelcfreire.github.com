@@ -20,18 +20,18 @@ tags: [javascript]
 
 Hi there,
 
-This is our first formal post. So, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who came from an object oriented programming and are starting in javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. That said, let's dive into how the <i>this</i> reference works in javascript.
+This is the first formal post of my blog, the idea here is to bring relevant topics and discussions that I have faced in my career. Given that, I decided to pick up a subject that is very confusing even for experienced developers, specially for those who came from an object oriented programming and aren't so familiar with javascript. The "this nightmare" can bring on some bugs that are really messy and hard to track. Actually it is some of the basic knowledge of the javascript language that took me a long time to understand and consequently decided to write about. So, let's dive into how the <i>this</i> reference works in javascript.
 
 ### Differents Types of Invocation
 
-The main trick to understand how the <i>this</i> reference works in javascript is understand the four ways that it can be invoked. They are:
+The first step to understand how the <i>this</i> reference works in javascript is know that it depends on how it is being referenced. There are four distinguished ways to do it and they are:
 
 - As a simple function invocation.
 - As a method invocation.
 - As an object creation.
 - Using the .apply and .call functions.
 
-Let's see each one and discuss the differences.
+Let's see each one and discuss the differences between them.
 
 ### As a Simple Function Invocation
 That's the simplest way to invoke a function, in a direct function call in javascript the <i>this</i> reference is bound to the global object at runtime. Let's go for some real life examples:
