@@ -18,11 +18,13 @@ tags: [books]
 
 Hi everybody,
 
-This is the post that I always thought to write. Actually, it should have been the first post of the blog as a kind of presenting myself but as I was reading some titles during that time I decided to finish them before write it. This post is a kind of walkthrough in my career once I believe that the books you read directly influences the quality and the maturity level of the professional. As I mentioned before I usually read a lot of books but only achieve the end of those that really arouse my curiosity and interest, there are a lot of titles that I just start and some that I don't think I am ready in terms of knowledge or inspiration to get the details so, I postpone the read and strangely that action works for me because some of the best titles I ever read were left aside to read in a later opportunity sometime.
+This is the post that I always thought to write. Actually, it should have been the first material of the blog as a kind of presenting myself but as I was reading some titles during that time I decided to finish them before write it. This text is a kind of walkthrough in my career once I believe that the books you read directly influences the quality and the maturity level of the professional. As I mentioned before I usually read a lot of books but only achieve the end of those that really arouse my curiosity and interest, there are a lot of titles that I just start and some that I don't think I am ready in terms of knowledge or inspiration to get the details so, I postpone the read and strangely that action works for me because some of the best titles I ever read were left aside to read in a later opportunity sometime.
 
 I don't like list anything in order of relevance because it is a very subtle concept, even being a personal list it is hard to give a cardinal order for my favorite books (I have already tried do it with my vinyl records and CDs but I always forget one that cannot be missing), I will try to put them in a chronological way, from the first to the last I've read to give an idea of sequence so, let's start:
 
 ### Java How to Program (6th Edition) (How to Program (Deitel))
+This book that really introduced me the concepts of OO and programing in Java Ecosystem. Clearly focused to starters, the Java Deitel is an awesome resource that brings an naive example of an ATM and it evoluted to a java application using Swing GUI and network API, Multithreading and the old JDBC. Even the book being really large
+
 ### Head First Design Patterns
 ### Head First EJB
 ### Data Structure and Algorithms
