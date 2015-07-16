@@ -20,5 +20,6 @@ My name is Rafael Freire, a hands on brazilian software engineer with experience
 - <i class="fa fa-github"></i>	<a href="https://github.com/rafaelcfreire" target="_blank">Github</a>
 - <i class="fa fa-bitbucket"></i>	<a href="https://bitbucket.org/rafaelcfreire" target="_blank">Bitbucket</a>
 - <i class="fa fa-codepen"></i> <a href="http://codepen.io/rafaelcfreire/" target="_blank">CodePen</a>
+- <i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/2646145/rafael-freire" target="_blank">Stack Overflow Profile</a>
 
 <script type="text/javascript" src="/js/main.js"></script>
