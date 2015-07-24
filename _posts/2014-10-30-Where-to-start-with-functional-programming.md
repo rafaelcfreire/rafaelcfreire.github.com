@@ -64,6 +64,7 @@ Those 2 things are really in the core of FP. Abscence of effects is directly rel
 - <a href="http://en.wikipedia.org/wiki/Tail_call" target="_blank">Tail Recursion</a>
 - <a href="http://c2.com/cgi/wiki?PatternMatching" target="_blank">Pattern Matching</a>
 - <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)" target="_blank">Monads</a>
+- - <a href="http://stackoverflow.com/questions/16501/what-is-a-lambda-function" target="_blank">Lambda (Anonymous functions)</a>
 
 So, let's see a brief explanation and a small example of each one in Scala of the above
 
