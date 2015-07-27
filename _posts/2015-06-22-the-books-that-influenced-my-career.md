@@ -26,7 +26,7 @@ I don't like list anything in order of relevance because it is a very subtle con
 This is the book that helped me to get the concepts of OO and programing in Java Ecosystem. Clearly focused to starters, the Java Deitel is an awesome resource that brings an naive example of an ATM and its evolution to a java application using Swing GUI, network API, Multithreading and the old fashioned JDBC. Even the book being really large, it is not necessary fatinguing to read althought sometimes it goes really deeper in some examples. The use of [UML](http://www.uml.org/) to illustrate the examples is perfect to enhance the reader understanding in a visual approach. Personally, even years later from my first contact with this reading I think it still relevant for entry level developers who intend to enter the Object Oriented world and the Java language
 
 ### Head First Design Patterns
-One of the first books that I was suggested to read when starting programming was the gang of four. I remember that this book was 
+One of the first books that I was suggested to read when starting programming was the <cite>[Design Patterns: Elements of Reusable Object-Oriented Software](https://books.google.com.br/books/about/Design_Patterns.html?id=6oHuKQe3TjQC&redir_esc=y)</cite> written by the gang of four(Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides). Every experienced software developer . I remember that this book was 
 
 ### Head First EJB
 ### Data Structure and Algorithms
