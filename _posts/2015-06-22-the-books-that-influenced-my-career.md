@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Books that Influenced My Career"
+title: "The Books That Influenced My Career"
 description: ""
 category: 
 tags: [books]
@@ -23,21 +23,66 @@ This is the post that I always thought to write. Actually, it should have been t
 I don't like list anything in order of relevance because it is a very subtle concept, even being a personal list it is hard to give a cardinal order for my favorite books (I have already tried do it with my vinyl records and CDs but I always forget one that cannot be missing), I will try to put them in a chronological way, from the first to the last I've read to give an idea of sequence so, let's start:
 
 ### Java How to Program (6th Edition) (How to Program (Deitel))
-This is the book that helped me to get the concepts of OO and programing in Java Ecosystem. Clearly focused to starters, the Java Deitel is an awesome resource that brings an naive example of an ATM and its evolution to a java application using Swing GUI, network API, Multithreading and the old fashioned JDBC. Even the book being really large, it is not necessary fatinguing to read althought sometimes it goes really deeper in some examples. The use of [UML](http://www.uml.org/) to illustrate the examples is perfect to enhance the reader understanding in a visual approach. Personally, even years later from my first contact with this reading I think it still relevant for entry level developers who intend to enter the Object Oriented world and the Java language
+This is the book that helped me to get the concepts of OO and programing in Java Ecosystem. Clearly focused to starters, the Java Deitel is an awesome resource that brings an naive example of an ATM and its evolution to a java application using Swing GUI, network API, Multithreading and the old fashioned JDBC. Even the book being really large, it is not necessary fatinguing to read althought sometimes it goes really deeper in some examples. The use of [UML](http://www.uml.org/) to illustrate the examples is perfect to enhance the reader understanding in a visual approach. Personally, even years later from my first contact with this reading I think it still relevant for entry level developers who intend to enter the Object Oriented world and the Java language.
+
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0131483986&asins=0131483986&linkId=N4R26YWGNBX5F5JK&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
 
 ### Head First Design Patterns
 One of the first books that I was suggested to read when starting programming was the <cite>[Design Patterns: Elements of Reusable Object-Oriented Software](https://books.google.com.br/books/about/Design_Patterns.html?id=6oHuKQe3TjQC&redir_esc=y)</cite> written by the gang of four(Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides). Every experienced software developer . I remember that this book was 
 
-### Head First EJB
-### Data Structure and Algorithms
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0596007124&asins=0596007124&linkId=DE26NV7EZTZLQ2BH&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
+### Clean Code
+
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0132350882&asins=0132350882&linkId=6DP443NXFDZAQWX4&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
+### Data Structure and Algorithms In Java
+
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=1118771338&asins=1118771338&linkId=CSVQK4VIQH64NLQ2&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
 ### Structure and Interpretation of Computer Programs
-	<a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and Interpretation of Computer Programs</a>
+
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0262510871&asins=0262510871&linkId=LKFRCQGPXD2DJPGW&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
+	<!-- <a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and Interpretation of Computer Programs</a> -->
+
 ### 97 Things Every Programmer Should Know
+
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0596809484&asins=0596809484&linkId=GONC242LMENHO6XI&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
+
 ### Javascript: The Good Parts
-### The Pragmatic Programmer
 
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0596517742&asins=0596517742&linkId=DWRBM53RCUG77TGS&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
 
+### The Pragmatic Programmer: From Journeyman To Master
 
+<div class="bookImages">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=020161622X&asins=020161622X&linkId=4622AAPXRKREODW7&show_border=false&link_opens_in_new_window=true">
+	</iframe>
+</div>
 
 
 <script type="text/javascript" src="/js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
