@@ -39,12 +39,12 @@ One of the first books that I was suggested to read when starting programming wa
 	</iframe>
 </div>
 
-### Clean Code
+### Effective Java
 
 <div class="bookImages">
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0132350882&asins=0132350882&linkId=6DP443NXFDZAQWX4&show_border=false&link_opens_in_new_window=true">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0321356683&asins=0321356683&linkId=M3N4R7RMPU4F4LQ4&show_border=false&link_opens_in_new_window=true">
 	</iframe>
-</div>
+</div></div>
 
 ### Data Structure and Algorithms In Java
 
