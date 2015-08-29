@@ -30,9 +30,8 @@ This is the book that helped me to get the concepts of OO and programing in Java
 	</iframe>
 </div>
 
-
 ### Head First Design Patterns
-One of the first books that I was suggested to read when starting programming was the <cite>[Design Patterns: Elements of Reusable Object-Oriented Software](https://books.google.com.br/books/about/Design_Patterns.html?id=6oHuKQe3TjQC&redir_esc=y)</cite> written by the gang of four(Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides). Every experienced software developer . I remember that this book was 
+One of the first books that I was suggested to read when starting programming was the <cite>[Design Patterns: Elements of Reusable Object-Oriented Software](https://books.google.com.br/books/about/Design_Patterns.html?id=6oHuKQe3TjQC&redir_esc=y)</cite> written by the gang of four(Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides). Every experienced software developer recommend this as a mandatory read, so I gave a try years ago...It was dissapointing. I could not understand even a line, and I felt terrible because every found that book awesome except me. Design Patterns stayed as a puzzle in my head Some time later I got a copy of 
 
 <div class="bookImages">
 	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=raffretecbl09-20&marketplace=amazon&region=US&placement=0596007124&asins=0596007124&linkId=DE26NV7EZTZLQ2BH&show_border=false&link_opens_in_new_window=true">
