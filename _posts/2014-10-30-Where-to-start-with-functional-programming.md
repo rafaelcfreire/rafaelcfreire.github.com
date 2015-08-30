@@ -32,7 +32,7 @@ As mentioned by <a href="http://lampwww.epfl.ch/~odersky/" target="_blank">Marti
 
 ### What is Functional Programming?
 
-One of the misconceptions that we can mention is that functional programming is a replacement for object oriented programming. Definitely NOT...repeat it to yourself 3 times. There is no contradiction with OO (<a href="http://scala-lang.org" target="_blank">Scala</a> use both for example), rather, you can use object oriented design with a functional implementation. Functional programming is a <a href="http://en.wikipedia.org/wiki/Programming_paradigm" target="_blank">paradigm</a> focused in how should be the structure of the implementation, so, instead of describing all the steps to perform an action ending in a low level and verbose code, functional is more concise, easier and expressive. I came from OOP with imperative background and right in my firsts experiments with FP in Scala i was really excited, imagine a language with wich you code as simple as reading? Now Java 8 has the <a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html" target="_blank">new syntax of Java 8 with Lambda expressions</a> which i just met but i always worked with Java's previous versions that everything is so <a href="http://en.wiktionary.org/wiki/verbose" target="_blank">verbose</a>, let's see a small example of iterating through a list.
+One of the misconceptions that we can mention about functional programming is the fact that it is a replacement for object oriented programming. Definitely NOT...repeat it to yourself 3 times. There is no contradiction with OO (<a href="http://scala-lang.org" target="_blank">Scala</a> use both for example), rather, you can use object oriented design with a functional implementation. Functional programming is a <a href="http://en.wikipedia.org/wiki/Programming_paradigm" target="_blank">paradigm</a> focused in how should be the structure of the implementation, so, instead of describing all the steps to perform an action ending in a low level and verbose code, functional is more concise, easier and expressive. I came from OOP with imperative background and right in my firsts experiments with FP in Scala i was really excited, imagine a language with wich you code as simple as reading? Now Java 8 has the <a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html" target="_blank">new syntax of Java 8 with Lambda expressions</a> which i just met but i always worked with Java's previous versions that everything is so <a href="http://en.wiktionary.org/wiki/verbose" target="_blank">verbose</a>, let's see a small example of iterating through a list.
 
 {% highlight ruby %}
 final List<BigDecimal> valores = Arrays.asList(new BigDecimal("70"), new BigDecimal("25"), new BigDecimal("55"), new BigDecimal("12"));
@@ -63,7 +63,8 @@ Those 2 things are really in the core of FP. Abscence of effects is directly rel
 - <a href="http://en.wikipedia.org/wiki/Currying" target="_blank">Currying</a>
 - <a href="http://en.wikipedia.org/wiki/Tail_call" target="_blank">Tail Recursion</a>
 - <a href="http://c2.com/cgi/wiki?PatternMatching" target="_blank">Pattern Matching</a>
-
+- <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)" target="_blank">Monads</a>
+- - <a href="http://stackoverflow.com/questions/16501/what-is-a-lambda-function" target="_blank">Lambda (Anonymous functions)</a>
 
 So, let's see a brief explanation and a small example of each one in Scala of the above
 
