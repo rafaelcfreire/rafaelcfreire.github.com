@@ -1,6 +1,12 @@
 .bookImages{
     margin: auto;
     width: 50%;
-    border:3px solid #8AC007;
-    padding: 10px;
+    /*border:3px solid #8AC007;**/
+    padding: 10px 5px 10px 150px;
+}
+
+@media screen and (max-width: 768px){
+	.bookImages{
+		margin: initial;
+	}
 }
