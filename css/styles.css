@@ -5,6 +5,24 @@
     padding: 10px 5px 10px 150px;
 }
 
+.PostsHeader{
+	color: #f22430;
+	border-bottom: 1px solid #eee;
+}
+
+.postSection{
+	width: 40%;
+	float: left;
+}
+
+.quotesSection{
+	width: 50%;
+	float: right;
+}
+.secondaryContent{
+	margin-top:	100px;
+}
+
 @media screen and (max-width: 768px){
 	.bookImages{
 		margin: initial;
