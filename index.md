@@ -24,12 +24,11 @@ Welcome to Rafael Freire's Tech Blog. Here you will find some of my thoughts abo
 	<span class="postSection">
 		<header class="PostsHeader"><h4>Recent Posts</h4></header>
 		<ul>
-		    <h5><li><a href="{% post_url 2015-06-22-the-books-that-influenced-my-career %}">The Books That Influenced My Career - 22 Jun 2015</a></li>
+		    <li><a href="{% post_url 2015-06-22-the-books-that-influenced-my-career %}">The Books That Influenced My Career - 22 Jun 2015</a></li>
 		    <li><a href="{% post_url 2015-02-24-useful-tools-to-test-the-responsiveness-of-your-site %}">Useful Tools to Test the Responsiveness of Your Site - 24 Feb 2015</a></li>
 		    <li><a href="{% post_url 2014-11-12-free-ebook---modern-web-essentials-using-javascript-and-html5 %}">Free EBook: Modern Web Essentials Using JavaScript and HTML5 - 12 Nov 2014</a></li>
 		    <li><a href="{% post_url 2014-10-30-Where-to-start-with-functional-programming %}">Where to Start With Functional Programming? - 30 Oct 2014</a></li>
 		    <li><a href="{% post_url 2014-10-11-javascripts-this-nightmare %}">Javascript's this nightmare - 11 Oct 2014</a></li>
-		    </h5>
 		</ul>
 		<!--
 		<ul>
