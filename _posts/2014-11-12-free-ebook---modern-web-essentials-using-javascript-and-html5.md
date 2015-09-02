@@ -3,7 +3,7 @@ layout: post
 title: "Free EBook: Modern Web Essentials Using JavaScript and HTML5"
 description: ""
 category: 
-tags: [javascript, HTML5, SPA]
+tags: [javascript, HTML5, SPA, books]
 ---
 {% include JB/setup %}
 
