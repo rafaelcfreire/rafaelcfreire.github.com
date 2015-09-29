@@ -53,8 +53,10 @@ The other page I usually test my features is <a href="http://responsive.is/typec
 
 ![My helpful screenshot](/assets/responsiveis.png)
 
+### Further Reading
+Recently I received a real good <a href="http://www.whoishostingthis.com/resources/responsive-design-video/">resource</a> explaining the pros of using responsive design with two detailed posts. One called <a href="http://www.whoishostingthis.com/blog/2013/06/26/responsive-design-infographic/">Responsive Design: Getting It Right</a> with a nice infographic and other post called <a href="http://www.whoishostingthis.com/blog/2014/02/25/keeping-it-simple-with-responsive-web-design/">Keeping it Simple with Responsive Web Design</a>, both with useful informations for those who are in doubt if worth to spend some time dedicated to assure the responsiveness of his pages. 
+
+
 If you use another resource to test the responsiveness of your pages, write down on our comments.
-
-
 
 <script type="text/javascript" src="/js/main.js"></script>
