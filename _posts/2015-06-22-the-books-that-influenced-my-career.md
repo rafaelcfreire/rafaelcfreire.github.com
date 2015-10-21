@@ -24,7 +24,7 @@ I don't like list anything in order of relevance because it is a very subtle con
 
 Thanks to <a href="https://twitter.com/jsonmez">John Sonmez</a>, author of <a href="http://simpleprogrammer.com/">Simple Programmer Blog</a> and <a href="https://www.manning.com/books/soft-skills">Soft Skills: The software developer's life manual</a> book which is on my wishlist and next book in line to be read, for inspiring me to finish this post. ;)
 
-### Java How to Program (6th Edition) (How to Program (Deitel))
+### Java How to Program (6th Edition) (How to Program (Deitel)) 
 This was the first programming book which I've read and the one that helped me to get the concepts of OO and programing in Java Ecosystem. Clearly focused to starters, the Java Deitel is an awesome resource that brings an naive example of an ATM and its evolution to a java application using Swing GUI, network API, Multithreading and the old fashioned JDBC. Even the book being really large, it is not necessary fatinguing to read althought sometimes it goes really deeper in some examples (and some recurrent and trite explanations). The extensive use of [UML](http://www.uml.org/) to illustrate the examples is perfect to enhance the reader understanding in a visual approach. Personally, even years later from my first contact with this reading I think it still relevant for entry level developers who intend to enter the Object Oriented world and the Java language.
 
 <div class="bookImages">

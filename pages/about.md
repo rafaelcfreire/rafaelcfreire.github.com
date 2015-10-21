@@ -9,7 +9,7 @@ group: navigation
 Hi,
 My name is Rafael Freire, a hands on brazilian software engineer with experience in Java EE, Ruby on Rails, javascript and other front end technologies like HTML5, WebComponents, JQuery, Backbone.js and some *.js things. Currently I'm working at <a href="https://www.ufmg.br">Universidade Federal de Minas Gerais</a> and in my available time I usually write some cool apps that you can check in my Bitbucket and Github pages. I'm a <a href="http://manning.com/">Manning</a> reviewer too so, I usually read a lot of tech books that I'll suggest here in the Blog. 
 
-- <i class="fa fa-download"></i> [Download my Resume (PDF)](/assets/resume_rafael_freire_2015.pdf)
+- <i class="fa fa-download"></i> [Download my Resume (PDF)](/assets/resume_rafael_freire.pdf)
 
 ## Contact
 - <i class="fa fa-twitter"></i>	<a href="https://twitter.com/rafaelcfreire" target="_blank">@rafaelcfreire</a>
