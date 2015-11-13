@@ -61,7 +61,7 @@ At this point you should have the same as image below:
 
 
 ### As a Method Invocation
-For those with a object oriented background the method invocation is the mostly natural way to be understood. When a function is a property of an object it can be invoked as a method for the instance of that object and in this case the <i>this</i> reference clearly will be bounded to the instance of that object. Here's an example:
+For those with a object oriented background, the method invocation is the most natural type of invocation. When a function is a property of an object, that function can be invoked as a method using the object's instance and in this case the <i>this</i> reference clearly will be bounded to the instance of that object. Here's an example:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -127,7 +127,7 @@ So, the value of <i>this</i> is an empty object created when the function <i>Cre
 ![My helpful screenshot](/assets/image3_post_2014_10_11.png)
 
 ### Using the .apply and .call Methods
-And last, the <i>.apply</i> and <i>.call</i> methods are those who you can set any object you want as <i>this</i>. Once functions are what we call as <a href="http://en.wikipedia.org/wiki/First-class_function" target='_blank'>first class citizens</a> they can have properties and methods, just like an object and <i>.apply</i> and <i>.call</i> are two methods available for all functions in Javascript. First class citizens is one of the mostly important definitions of Javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, <i>.apply</i> and <i>.call</i> are opened for you choose which will be your <i>this</i> reference, let's practice:
+And last, the <i>.apply</i> and <i>.call</i> are methods that you can set any object you want as <i>this</i>. Since functions are what we call as <a href="http://en.wikipedia.org/wiki/First-class_function" target='_blank'>first class citizens</a> they can have properties and methods, just like an object and <i>.apply</i> and <i>.call</i> are two methods available for all functions in Javascript. First class citizens is one of the most important definitions of Javascript functions and you should read about it if don't feel confident enough in this subject. So, as said before, <i>.apply</i> and <i>.call</i> are opened for you choose what will be your <i>this</i> reference, let's practice:
 
 - Open a Chrome browser and then open the Developer Tools (F12).
 - Go to Console item in the toolbar.
@@ -143,7 +143,7 @@ function sumArray(){
 }
 {% endhighlight %}
  
-- Create two variables and name then as <i>object1</i> and <i>object2</i>.
+- Create two variables and name them as <i>object1</i> and <i>object2</i>.
 - Call the <i>sumArray</i> function using the <i>apply</i> method. As parameter pass the <i>object1</i> to be the reference of <i>"this"</i> and an array with the values will be used to sum.
 
 {% highlight ruby %}
@@ -167,10 +167,10 @@ function sumArray(){
 ![My helpful screenshot](/assets/image4_post_2014_10_11.png)
 
 ### Strict Mode
-We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the <a href="http://www.w3schools.com/js/js_window.asp" target="_blank">window object</a>, if you run inside a <a href="http://nodejs.org" target="_blank">NodeJS</a> environment it will be the NodeJS global object. But both environments has (<a href="http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/" target="_blank">Strict Mode</a>. Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
+We mentioned some times that the this reference is bounded to the global object at runtime but, what it means? It depends on the environment you're executing the code. If you run the example above in the console it will be the <a href="http://www.w3schools.com/js/js_window.asp" target="_blank">window object</a>, if you run inside a <a href="http://nodejs.org" target="_blank">NodeJS</a> environment it will be the NodeJS global object. But both environments have (<a href="http://www.yuiblog.com/blog/2010/12/14/strict-mode-is-coming-to-town/" target="_blank">Strict Mode</a>. Strict mode sets the <i>this</i> to an undefined reference. You can see in the link above the advantages of using Strict mode.
 
 ### For Further Reading
-To go deeply in this subject I suggest the following books, both focused in Javascript. The first is a book of <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series" target="_blank">You Don't Know JS Series</a> which I'm currently reading and highly suggest for deeper understanding of the mechanism of <i>this</i>. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by <a href="http://Javascript.crockford.com" target="_blank">Douglas Crockford</a>, creator of JSON.
+To go deeply in this subject I suggest the following books, both focused in Javascript. The first is a book of <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series" target="_blank">You Don't Know JS Series</a> which I'm currently reading and highly suggest for deeper understanding of the mechanism that <i>this</i> relies on. In the link above you can see that's there are more interesting topics about JS like Scope, Closures. If you want to buy a copy of the book, click on the link below. The second link is one of the greatest books about JS. Javascript: The Good Parts is an introdutory reference to some of the most important points in JS. Written by <a href="http://Javascript.crockford.com" target="_blank">Douglas Crockford</a>, creator of JSON.
 
 
  
