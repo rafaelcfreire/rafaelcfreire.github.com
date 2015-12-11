@@ -14,7 +14,7 @@ My name is Rafael Freire, a hands on brazilian software engineer with experience
 ## Contact
 - <i class="fa fa-twitter"></i>	<a href="https://twitter.com/rafaelcfreire" target="_blank">@rafaelcfreire</a>
 - <i class="fa fa-envelope"></i> <a href="mailto:rafaelcfreire@gmail.com" target="_blank">rafaelcfreire@gmail.com</a>
-- <i class="fa fa-linkedin-square"></i>	<a href="https://www.linkedin.com/pub/rafael-freire/31/a31/332" target="_blank">LinkedIn</a>
+- <i class="fa fa-linkedin-square"></i>	<a href="https://www.linkedin.com/in/rafaelcfreire" target="_blank">LinkedIn</a>
 
 ## Portfolio
 - <i class="fa fa-github"></i>	<a href="https://github.com/rafaelcfreire" target="_blank">Github</a>
